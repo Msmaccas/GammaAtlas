@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "rootDir": ".",
+    "outDir": "dist",
+    "declaration": true,
+    "composite": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "packages/**/*",
+    "apps/**/*",
+    "scripts/**/*",
+    "tests/**/*"
+  ],
+  "exclude": ["node_modules", "dist", ".github"]
+}

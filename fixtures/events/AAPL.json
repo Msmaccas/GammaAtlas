@@ -1,0 +1,9 @@
+[
+  {
+    "instrument": "AAPL",
+    "eventType": "EARNINGS",
+    "description": "Q2 earnings",
+    "start": "2026-06-02",
+    "end": "2026-06-02"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-30T17:15:34.380Z",
+  "evidence": [
+    {
+      "id": "pin-AAPL-200-2026",
+      "type": "PinCluster",
+      "source": "AAPL",
+      "timestamp": "2026-05-30",
+      "confidence": 0.5507246376811594,
+      "state": "OK",
+      "reason": "Cluster near spot (200) with relative density 1.65"
+    },
+    {
+      "id": "volcrush-AAPL",
+      "type": "IVElevated",
+      "source": "AAPL",
+      "timestamp": "2026-05-30",
+      "confidence": 0.3249999999999999,
+      "state": "OK",
+      "reason": "Average IV 0.297 vs realised 0.200, event within 5 days"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,14 @@
+{
+  "instrument": "BAD",
+  "timestamp": "2026-05-30",
+  "spotPrice": 50,
+  "realisedVol": 0.1,
+  "contracts": [
+    { "expiry": "2026-06-01", "type": "call", "openInterest": 1000, "volume": 500 },
+    { "strike": 55, "type": "put", "openInterest": 500, "volume": 200 }
+  ],
+  "ivTermStructure": {},
+  "skew": {},
+  "openInterestChanges": {},
+  "state": "OK"
+}

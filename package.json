@@ -1,0 +1,22 @@
+{
+  "name": "gamma-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GammaAtlas – an evidence‑first options surface intelligence system",
+  "type": "commonjs",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "clean": "node scripts/clean.js",
+    "build": "tsc -b",
+    "test": "node scripts/test-runner.js",
+    "smoke": "node dist/scripts/smoke.js",
+    "start": "node dist/apps/gamma-atlas/index.js"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {}
+}

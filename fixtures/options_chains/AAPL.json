@@ -1,0 +1,18 @@
+{
+  "instrument": "AAPL",
+  "timestamp": "2026-05-30",
+  "spotPrice": 200,
+  "realisedVol": 0.2,
+  "contracts": [
+    { "strike": 200, "expiry": "2026-06-01", "type": "call", "openInterest": 1000, "volume": 500, "impliedVol": 0.32 },
+    { "strike": 200, "expiry": "2026-06-01", "type": "put", "openInterest": 900, "volume": 450, "impliedVol": 0.33 },
+    { "strike": 190, "expiry": "2026-06-01", "type": "call", "openInterest": 500, "volume": 200, "impliedVol": 0.28 },
+    { "strike": 210, "expiry": "2026-06-01", "type": "put", "openInterest": 400, "volume": 100, "impliedVol": 0.29 },
+    { "strike": 200, "expiry": "2026-06-15", "type": "call", "openInterest": 600, "volume": 100, "impliedVol": 0.27 },
+    { "strike": 200, "expiry": "2026-06-15", "type": "put", "openInterest": 550, "volume": 80, "impliedVol": 0.26 }
+  ],
+  "ivTermStructure": { "2026-06-01": 0.33, "2026-06-15": 0.265 },
+  "skew": { "2026-06-01": 0.033, "2026-06-15": 0.02 },
+  "openInterestChanges": {},
+  "state": "OK"
+}
